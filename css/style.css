@@ -1,0 +1,96 @@
+@import url(reset.css);
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background: url("../img/tree-736881.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.wrap {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  width: 50%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-family: "Hack";
+}
+
+.right_wrap {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center_text {
+  text-align: left;
+}
+
+.center_p {
+  display: none;
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+  font-family: "Hack";
+}
+
+.center_block {
+  display: block;
+}
+
+.link {
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  display: inline-block;
+  padding-left: 40px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Hack";
+  letter-spacing: 2px;
+}
+
+header nav a:last-child {
+  padding-right: none;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+.about {
+  width: 100%;
+  height: 30vh;
+  background: lightgrey;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+}
